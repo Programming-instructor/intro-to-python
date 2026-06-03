@@ -82,6 +82,39 @@ print(result)
 number = int(input("pls enter number "))
 proc(number)"""
 
+# Example 11
+# 10
+# 2+4+6+8+10 = 30
+"""number = int(input("pls enter your number :"))
+total = 0
+
+for i in range(1,number + 1):
+    if i % 2 ==0:
+        total += i
+print("sum of even numbers : ",total)
+print(f"sum of even nubers : {total}")
+"""
+
+# Example 12
+"""x = int(input('pls enter number 1 :'))
+y = int(input('pls enter number 2 :'))
+z = int(input('pls enter number 3 :'))
+
+if  x>=y and x>=z:
+    print("the largest number is : ",x)
+elif y>=x and y>=z:
+    print("the largest number is : ",y)
+else:
+    print("the largest number is : ",z)"""
+
+
+# Example 13
+# word = input("enter a word : ")
+# print("number of letters : ",len(word))
+
+
+
+
 
 
 
