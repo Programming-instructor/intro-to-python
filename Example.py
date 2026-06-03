@@ -113,8 +113,55 @@ else:
 # print("number of letters : ",len(word))
 
 
+# Example 14
+"""def calc(a,b,op):
+    if op=="+":
+        return a+b
+    elif op=="-":
+        return a-b 
+    elif op=="*":
+        return a * b   
+    elif op=="/":
+        if b == 0:
+            return "Error : divisuon by  zero  !"
+        return a/b   
+    else:
+        return " Invalid Opretator !"
+    
+
+a = int(input("pls first number : "))
+b = int(input("pls second number : "))
+op = input("Enter opretor  (+,-,*,/) : ")
+result = calc(a,b,op)
+print(f"the result is  : {result} ")
+
+"""
 
 
 
+# Example 15
+"""def get_int_input(propmt):
+    while True:
+        try:
+            return int(input(propmt))
 
+        except ValueError:
+            print('please enter a vaild inteage ! ')
+
+a= get_int_input("Enter First  number : ")
+b =get_int_input("Enter second number : ")
+print("sum : ",a+b)"""
+
+
+# Example 16
+secret_number  = 3
+while True:
+    guess = int(input("Geuss the number  : "))
+    if guess < secret_number:
+        print("Too Low")
+    elif guess > secret_number:
+        print("Too High")
+    else:
+        print("Correct ! ")
+        break
 
